@@ -48,6 +48,7 @@ export default function PackageSection() {
       setCurrent((prevCurrent) => prevCurrent + 1);
     }
   };
+  const keyName = Math.random();
 
   return (
     <div className="flex flex-col items-start w-full mb-10">
@@ -67,7 +68,7 @@ export default function PackageSection() {
                 pathname: `/package-shop/${pkg.title}`,
                 query: { product: JSON.stringify(pkg) },
               }}
-              key={pkg.id || index}
+              key={pkg.name}
               className="w-1/4 flex-shrink-0 p-4"
             >
               {" "}

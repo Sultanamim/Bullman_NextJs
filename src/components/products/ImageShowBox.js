@@ -25,9 +25,13 @@ export default function ImageShowBox({ images }) {
           <i className="fa-solid fa-arrow-up-long text-gray-800 text-[12px] "></i>
         </button>
         {images.slice(startIndex, startIndex + 5).map((item, index) => (
-          <img
+          <Image
             src={item}
             key={index}
+            layout="resposive"
+            objectFit="contain"
+            width={80}
+            height={80}
             className="w-[80px] h-[80px] object-contain my-1 cursor-pointer hover:opacity-60"
             onClick={() => setSelectedImage(item)}
           />

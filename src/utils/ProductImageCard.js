@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 
@@ -41,7 +42,19 @@ export default function ProductImageCard({
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
       >
-        <img
+        <Image
+          src={
+            hoverPosition === "right" && primaryImg2 ? primaryImg2 : primaryImg1
+          }
+          alt="Product"
+          layout="responsive"
+          width={500} // You can adjust the width and height according to your needs
+          height={500}
+          className={`w-full h-auto transition-transform duration-300 mb-3 ${
+            primaryImg2 ? "" : "group-hover:scale-110"
+          }`}
+        />
+        {/* <img
           src={
             hoverPosition === "right" && primaryImg2 ? primaryImg2 : primaryImg1
           }
@@ -49,7 +62,7 @@ export default function ProductImageCard({
           className={`w-full h-auto transition-transform duration-300 ${
             primaryImg2 ? "" : "group-hover:scale-110"
           }`}
-        />
+        /> */}
         {primaryImg2 && (
           <div
             className={`absolute bottom-0 left-0 w-full flex ${
