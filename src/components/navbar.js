@@ -36,9 +36,24 @@ export default function Navbar() {
   };
 
   return (
-    <div className="flex flex-col justify-center bg-black text-white pl-3 font-mada fixed z-50 left-0 top-0 right-0">
+    <div className="fixed z-50 left-0 top-0 right-0 font-mada">
+    <div className=" bg-white w-full h-9 flex flex-row items-center justify-end text-[15px] ">
+      <a href="/content/nos-realisations" className="mx-6 hover:underline">
+      Nos réalisations 
+      </a>
+      <a href="/" className="mx-6 hover:underline">
+      Cartes Cadeau  
+      </a>
+      <a href="/" className="mx-6 hover:underline">
+      Contactez-Nous  
+      </a>
+      <a href="/" className="ml-6 hover:underline mr-16">
+      Statut 
+      </a>
+    </div>
+    <div className="flex flex-col justify-center bg-black text-white pl-3 font-mada ">
       {/*---------- Top Navbar ------------- */}
-      <div className="grid grid-cols-3 gap-4 px-16 py-5">
+      <div className="grid grid-cols-3 gap-4 px-16 py-5 smd:grid-cols-2">
         {/* Logo */}
         <a href="/" className="">
           <img
@@ -53,7 +68,7 @@ export default function Navbar() {
           onChange={(e) => setSearchQuery(e.target.value)}
         />
         {/* right conetnts */}
-        <div className="flex flex-row items-center justify-center ml-10">
+        <div className="flex flex-row items-center justify-center ml-10 smd:hidden ">
           <div className="mr-5">
             <div className="bg-navyBlue px-1 py-[3px] flex flex-row justify-center items-center">
               <p className="text-[13px]">LIVRAISON OFFERTE À PARTIR DE 500€ </p>
@@ -141,6 +156,7 @@ export default function Navbar() {
         ))}
       </div>
       {showCart && <CartModal showCart={showCart} setShowCart={setShowCart} />}
+    </div>
     </div>
   );
 }

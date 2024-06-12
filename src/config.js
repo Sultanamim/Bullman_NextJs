@@ -2419,3 +2419,8 @@ export const productsExtraInfo = {
     },
   ],
 };
+
+
+export const achievement =[
+  '/img/hego.webp', '/img/crossfit.webp', '/img/ccsh.webp', '/img/soho.webp', '/img/lagardere.webp', '/img/gracie.webp', '/img/athlet.webp', '/img/cnes.webp',
+] 
