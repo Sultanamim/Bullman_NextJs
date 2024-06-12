@@ -29,15 +29,16 @@ export default function PricingSection({ product }) {
   const totalPrice = formatPrice(basePrice * quantity);
 
   useEffect(() => {
-    if (product.types) {
+    if (product.priceTypes.length > 0) {
       // Initialize type quantities to 0 for each type
-      const initialTypeQuantities = product.types.reduce((acc, type) => {
-        acc[type.type] = 0;
+      const initialTypeQuantities = product.priceTypes.reduce((acc, type) => {
+        acc[type.priceType] = 0;
         return acc;
       }, {});
       setTypeQuantities(initialTypeQuantities);
     }
-  }, [product.types]);
+  }, [product.priceTypes]);
+  console.log(typeQuantities);
 
   const increaseTypeQuantity = (type) => {
     setTypeQuantities((prevQuantities) => {
@@ -62,20 +63,21 @@ export default function PricingSection({ product }) {
   };
 
   const calculateTotalWeight = (quantities) => {
-    const total = product.types.reduce((acc, type) => {
-      const typeWeight = parseFloat(type.type.split(" ")[2]); // Assuming weight is in the type string
-      return acc + quantities[type.type] * typeWeight;
+    const total = product.priceTypes.reduce((acc, type) => {
+      const typeWeight = parseFloat(type.weight); // Using the correct weight key
+      return acc + quantities[type.priceType] * typeWeight;
     }, 0);
     setTotalWeight(total);
   };
 
-  const totalTypesPrice = product.types
-    ? product.types.reduce((acc, type) => {
-        const typeQuantity = typeQuantities[type.type];
-        const typePrice = parsePrice(type.price);
-        return acc + typeQuantity * typePrice;
-      }, 0)
-    : "0,00";
+  const totalTypesPrice =
+    product.priceTypes.length > 0
+      ? product.priceTypes.reduce((acc, type) => {
+          const typeQuantity = typeQuantities[type.priceType];
+          const typePrice = parsePrice(type.price);
+          return acc + typeQuantity * typePrice;
+        }, 0)
+      : "0,00";
 
   const handleAddToCart = () => {
     const productToAdd = {
@@ -83,47 +85,47 @@ export default function PricingSection({ product }) {
       name: product.name ? product.name : product.title,
       image: product.primaryImg1 ? product.primaryImg1 : product.image,
       price: product.price,
-      quantity: product.types ? typeQuantities : quantity,
-      types: product.types
-        ? product.types.map((type) => ({
-            type: type.type,
-            quantity: typeQuantities[type.type],
-            price: type.price,
-          }))
-        : null,
-      totalPrice: product.types ? totalTypesPrice : totalPrice,
+      quantity: product.priceTypes ? typeQuantities : quantity,
+      types:
+        product.priceTypes.length > 0
+          ? product.priceTypes.map((type) => ({
+              type: type.priceType,
+              quantity: typeQuantities[type.priceType],
+              price: type.price,
+            }))
+          : null,
+      totalPrice: product.priceTypes ? totalTypesPrice : totalPrice,
       product: product,
     };
     addToCart(productToAdd);
   };
-
   return (
     <div>
       {/* --- buttons ---- */}
-      {product.types ? (
+      {product.priceTypes.length > 0 ? (
         <div className="flex flex-col border-b border-[#a7a5a5] mb-2 pb-2">
-          {product.types?.map((item, index) => (
+          {product.priceTypes?.map((item, index) => (
             <div
               key={index}
               className="flex flex-row justify-between items-center"
             >
-              <p className="text-[14px]">{item.type}</p>
+              <p className="text-[14px]">{item.priceType}</p>
               <div className="flex flex-row items-center my-2">
                 <p className="text-[16px] font-bold mr-6">{item.price}€</p>
                 {/* minus */}
                 <button
-                  onClick={() => decreaseTypeQuantity(item.type)}
+                  onClick={() => decreaseTypeQuantity(item.priceType)}
                   className="px-1 py-1 border border-[#a2a2a2] flex items-center justify-center w-[44px] h-[36px] font-bold text-[20px] mx-1"
                 >
                   -
                 </button>
                 {/* quantity */}
                 <p className="px-1 py-1 border border-[#a2a2a2] flex items-center justify-center w-[44px] h-[36px] text-[18px] mx-1 ">
-                  {typeQuantities[item.type]}
+                  {typeQuantities[item.priceType]}
                 </p>
                 {/* plus */}
                 <button
-                  onClick={() => increaseTypeQuantity(item.type)}
+                  onClick={() => increaseTypeQuantity(item.priceType)}
                   className="px-1 py-1 border border-[#a2a2a2] flex items-center justify-center w-[44px] h-[36px] font-bold text-[20px] mx-1"
                 >
                   +
@@ -162,26 +164,28 @@ export default function PricingSection({ product }) {
         </div>
       )}
       {/* Progress Bar */}
-      {product.types && <WeightProgress currentWeight={totalWeight} />}
+      {product.priceTypes.length > 0 && (
+        <WeightProgress currentWeight={totalWeight} />
+      )}
 
       {/* ---Total price--- */}
       <p className="text-[16px] font-[800] leading-[23px] mb-2">Total:</p>
       <div className="flex flex-row items-center">
         <p className="text-[#0f0f0f] text-[20px] font-[800]">
-          € {product.types ? totalTypesPrice : totalPrice}
+          € {product.priceTypes.length > 0 ? totalTypesPrice : totalPrice}
           <span className="text-[#7a7a7a] text-[15px] font-normal ml-1 ">
             ttc.
           </span>
         </p>
         <p className="text-[#0f0f0f] text-[17px] font-[500] ml-3">
-          €{product.types ? totalTypesPrice : totalPrice}
+          €{product.priceTypes.length > 0 ? totalTypesPrice : totalPrice}
           <span className="text-[#7a7a7a] text-[15px] font-normal ml-1 ">
             ht.
           </span>
         </p>
       </div>
       {/* long add to cart button  */}
-      {product.types && (
+      {product.priceTypes.length > 0 && (
         <button
           onClick={handleAddToCart}
           className="bg-gradient-to-b from-[#255CA6] from-10% to-[#052753] to-90% h-[46px] w-full py-4 px-5 text-white border border-[#a2a2a2] mt-[11px] text-[16px] font-medium uppercase flex justify-center items-center"

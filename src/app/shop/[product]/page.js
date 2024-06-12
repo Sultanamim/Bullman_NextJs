@@ -10,9 +10,9 @@ import Breadcrumb from "@/utils/Breadcrumb";
 import React, { useEffect, useState } from "react";
 
 export default function ProductDetail(product) {
-  //console.log(product);
   const Product = JSON.parse(product.searchParams.product);
   const slug = Product.name;
+  // console.log(Product);
 
   return (
     <main className="px-20 bg-white">

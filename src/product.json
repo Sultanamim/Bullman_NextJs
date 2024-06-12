@@ -1,9 +1,11 @@
-{
+[
+
+  {
     "name": "PLYOBOX",
     "primaryImg1": "https://bullmanequipment.com/1181-large_default/plyobox-50-60-75cm.jpg",
     "primaryImg2": "https://bullmanequipment.com/1180-large_default/plyobox-50-60-75cm.jpg",
     "category": "",
-    "price": "99,00",
+    "price": "82,50",
     "shortImg": [
       "https://bullmanequipment.com/1181-large_default/plyobox-50-60-75cm.jpg",
       "https://bullmanequipment.com/1180-large_default/plyobox-50-60-75cm.jpg",
@@ -22,11 +24,7 @@
         "Épaisseur_bois": "2 cm",
         "Matière": "Bois",
         "Dimensions": "50-60-75 cm",
-        "Autres_détails": "Vis à bois fournies",
-        "otherProperties": {
-          "CustomProperty1": "Value1",
-          "CustomProperty2": "Value2"
-        }
+        "Autres_détails": "Vis à bois fournies"
       }
     ,
     "desc": [
@@ -92,5 +90,705 @@
         "desc": ["-KLARNA 3x,", "-KLARNA 10x."]
       }
     ]
+  },
+  {
+    "name": "BARRE POWERLIFTING Ø28mm",
+    "primaryImg1": "https://bullmanequipment.com/1819-large_default/barre-powerlifting-o28mm.jpg",
+    "primaryImg2": "https://bullmanequipment.com/1820-large_default/barre-powerlifting-o28mm.jpg",
+    "category": "",
+    "price": "58,33",
+    "shortImg": [
+      "https://bullmanequipment.com/1819-large_default/barre-powerlifting-o28mm.jpg",
+      "https://bullmanequipment.com/1820-large_default/barre-powerlifting-o28mm.jpg",
+      "https://bullmanequipment.com/1821-large_default/barre-powerlifting-o28mm.jpg"
+    ],
+    "specifications": 
+    {
+      "Marque": "BULLMAN",
+      "Poids": "17 kg",
+      "Longueur": "220 cm",
+      "Garantie": "5 ans",
+      "Usage barre": "Powerlifting",
+      "Diamètre barre": "28mm",
+      "Diamètre Manchons": "50 mm",
+      "Roulements": "2 à aiguilles",
+      "Marquage central": "Oui",
+      "Marque de moletage": "Simple"
+    }
+    ,
+    "desc": [
+      {
+        "title": "",
+        "desc": "Améliorez votre entraînement avec la Plyobox BULLMAN, un équipement indispensable pour développer votre force, explosivité et coordination de vos membres inférieurs."
+      },
+      {
+        "title": "Maximisez vos résultats :",
+        "desc": "La Plyobox vous permet de travailler efficacement les muscles des jambes et d'améliorer votre vitesse et votre coordination, ce qui se traduira par de meilleures performances sportives et un corps plus tonique et athlétique."
+      },
+      {
+        "title": "Évolution constante :",
+        "desc": "Grâce aux différentes tailles et hauteurs disponibles, vous pouvez progresser et augmenter l'intensité de vos entraînements au fur et à mesure que vous gagnez en force et en confiance."
+      },
+      {
+        "title": "Sécurité renforcée : ",
+        "desc": "La surface de la Plyobox vous assure une adhérence optimale vous permettant de vous concentrer pleinement sur votre entraînement sans craindre de glisser."
+      },
+      {
+        "title": "Entraînement varié :",
+        "desc": "La Plyobox offre une grande variété d'exercices, du saut en hauteur aux fentes, en passant par les step-ups, vous assurant ainsi de ne jamais vous ennuyer et de continuer à progresser."
+      },
+      {
+        "title": "Investissement durable :",
+        "desc": "Fabriquée en bois, la Plyobox est conçue pour durer, vous garantissant un équipement de qualité sur lequel vous pourrez compter pendant de nombreuses années."
+      }
+    ],
+    "garantie": [
+      "Tous nos accessoires et petits matériels sont garanties 2 ans.",
+      "Nos barres, plates machines et racks sont garanties 5ans."
+    ],
+    "expedition": [
+      {
+        "title1": "Pour toute commande supérieure à 500,0 nous vous offrons les frais de port.",
+        "desc1": [
+          "A l'exception des dalles, des racks, de certaines barres et des machines qui sont soumis à un forfait.",
+          "Le transport dit 'DOMICILE BULLMAN' est au choix de Bullman Equipment.",
+          "Lorsque les produits sont en stock, nous expédions généralement sous 48h.",
+          "La participation aux frais de port est calculée en fonction du prix du panier, du poids et du transporteur sélectionné."
+        ],
+        "title2": "Règles spécifiques :",
+        "desc2": [
+          "-Les packs font l'objet d'un forfait de 59,9TTC.",
+          "-L'expédition de dalles fait l'objet d'un forfait peu importe la quantité : 59,9 TTC.",
+          "-Les machines font l'objet d'un forfait par machine de 59,9.",
+          "-L'expédition de racks est soumise à une surcharge de 59,9 par commande.",
+          "-Nos barres olympiques (sauf les barres d'haltères) font l'objet d'un forfait de 3 TTC par barre pour les commandes en deçà de 50."
+        ]
+      }
+    ],
+    "payment": [
+      {
+        "title": "",
+        "desc": ["Nous vous proposons un paiement sécurisé et crypté en SSL."]
+      },
+      {
+        "title": "Comptant :",
+        "desc": ["-Cartes bancaires,", "-Virement instantané,", "-Apple Pay."]
+      },
+      {
+        "title": "En plusieurs fois :",
+        "desc": ["-KLARNA 3x,", "-KLARNA 10x."]
+      }
+    ]
+  },
+  {
+    "name": "CEINTURE DE LESTAGE",
+    "primaryImg1": "https://bullmanequipment.com/1270-large_default/ceinture-de-lestage.jpg",
+    "primaryImg2": "https://bullmanequipment.com/1271-large_default/ceinture-de-lestage.jpg",
+    "category": "",
+    "price": "12,50",
+    "shortImg": [
+      "https://bullmanequipment.com/1270-large_default/ceinture-de-lestage.jpg",
+      "https://bullmanequipment.com/1271-large_default/ceinture-de-lestage.jpg",
+      "https://bullmanequipment.com/1272-large_default/ceinture-de-lestage.jpg"
+    ],
+    "specifications": 
+    {
+      "Marque": "BULLMAN",
+      "Couleur": "Noir",
+      "Longueur": "Chaine 70 cm",
+      "Qualité acier": "Épaisseur 5 mm",
+      "Charge maximale": "80 kg",
+      "Garantie": "5 ans"
+    }
+    ,
+    "desc": [
+      {
+        "title": "",
+        "desc": "Améliorez votre entraînement avec la Plyobox BULLMAN, un équipement indispensable pour développer votre force, explosivité et coordination de vos membres inférieurs."
+      },
+      {
+        "title": "Maximisez vos résultats :",
+        "desc": "La Plyobox vous permet de travailler efficacement les muscles des jambes et d'améliorer votre vitesse et votre coordination, ce qui se traduira par de meilleures performances sportives et un corps plus tonique et athlétique."
+      },
+      {
+        "title": "Évolution constante :",
+        "desc": "Grâce aux différentes tailles et hauteurs disponibles, vous pouvez progresser et augmenter l'intensité de vos entraînements au fur et à mesure que vous gagnez en force et en confiance."
+      },
+      {
+        "title": "Sécurité renforcée : ",
+        "desc": "La surface de la Plyobox vous assure une adhérence optimale vous permettant de vous concentrer pleinement sur votre entraînement sans craindre de glisser."
+      },
+      {
+        "title": "Entraînement varié :",
+        "desc": "La Plyobox offre une grande variété d'exercices, du saut en hauteur aux fentes, en passant par les step-ups, vous assurant ainsi de ne jamais vous ennuyer et de continuer à progresser."
+      },
+      {
+        "title": "Investissement durable :",
+        "desc": "Fabriquée en bois, la Plyobox est conçue pour durer, vous garantissant un équipement de qualité sur lequel vous pourrez compter pendant de nombreuses années."
+      }
+    ],
+    "garantie": [
+      "Tous nos accessoires et petits matériels sont garanties 2 ans.",
+      "Nos barres, plates machines et racks sont garanties 5ans."
+    ],
+    "expedition": [
+      {
+        "title1": "Pour toute commande supérieure à 500,0 nous vous offrons les frais de port.",
+        "desc1": [
+          "A l'exception des dalles, des racks, de certaines barres et des machines qui sont soumis à un forfait.",
+          "Le transport dit 'DOMICILE BULLMAN' est au choix de Bullman Equipment.",
+          "Lorsque les produits sont en stock, nous expédions généralement sous 48h.",
+          "La participation aux frais de port est calculée en fonction du prix du panier, du poids et du transporteur sélectionné."
+        ],
+        "title2": "Règles spécifiques :",
+        "desc2": [
+          "-Les packs font l'objet d'un forfait de 59,9TTC.",
+          "-L'expédition de dalles fait l'objet d'un forfait peu importe la quantité : 59,9 TTC.",
+          "-Les machines font l'objet d'un forfait par machine de 59,9.",
+          "-L'expédition de racks est soumise à une surcharge de 59,9 par commande.",
+          "-Nos barres olympiques (sauf les barres d'haltères) font l'objet d'un forfait de 3 TTC par barre pour les commandes en deçà de 50."
+        ]
+      }
+    ],
+    "payment": [
+      {
+        "title": "",
+        "desc": ["Nous vous proposons un paiement sécurisé et crypté en SSL."]
+      },
+      {
+        "title": "Comptant :",
+        "desc": ["-Cartes bancaires,", "-Virement instantané,", "-Apple Pay."]
+      },
+      {
+        "title": "En plusieurs fois :",
+        "desc": ["-KLARNA 3x,", "-KLARNA 10x."]
+      }
+    ]
+  },
+  {
+    "name": "HALTÈRES HEXAGONAUX - 2,5 à 50 kg (paire)",
+    "primaryImg1": "https://bullmanequipment.com/1552-medium_default/halteres-hexagonaux-25-a-50-kg-paire.jpg",
+    "primaryImg2": "https://bullmanequipment.com/2115-large_default/halteres-hexagonaux-25-a-50-kg-paire.jpg",
+    "category": "",
+    "priceTypes": [
+      {
+        "priceType": "Poids : 2.5 kg - Paire",
+        "price": "11,67",
+        "weight": "2.5"
+      },
+      {
+        "priceType": "Poids : 7.5 kg - Paire",
+        "price": "35,00",
+        "weight": "7.5"
+      },
+      {
+        "priceType": "Poids : 10 kg - Paire",
+        "price": "46,67",
+        "weight": "10"
+      },
+      {
+        "priceType": "Poids : 12.5 kg - Paire",
+        "price": "58,33",
+        "weight": "12.5"
+      },
+      {
+        "priceType": "Poids : 15 kg - Paire",
+        "price": "70,00",
+        "weight": "15"
+      }
+    ],
+    "price": "14,00",
+    "descCard": [
+      {
+        "image": "https://bullmanequipment.com/img/cms/DB%201.jpg",
+        "title": "1-TÊTE HEXAGONALE EN CAOUTCHOUC",
+        "desc": "L'haltère à tête hexagonale allie esthétique et efficacité avec son revêtement en caoutchouc de haute qualité et sa barre ergonomique pour une prise en main optimale. Sa forme permet de ne pas rouler au sol."
+      },
+      {
+        "image": "https://bullmanequipment.com/img/cms/SCHEMAS/DB%20SCHEMA.jpg",
+        "title": "2-DIMENSIONS DE LA POIGNÉE",
+        "desc": "De 5 à 50 kg : ø34 mm, Longueur : de 2,5 à 17,5 kg = 130 mm, de 20 à 50 kg = 140mm. Les dimensions totales de l'haltère sont variables."
+      },
+      {
+        "image": "https://bullmanequipment.com/img/cms/DB3.jpg",
+        "title": "3-CONÇUS POUR DURER",
+        "desc": "L'haltère à tête hexagonale est un investissement judicieux qui vous accompagnera pendant de nombreuses années. Garantis 2 ans."
+      },
+      {
+        "image": "https://bullmanequipment.com/img/cms/DB4.jpg",
+        "title": "4-TESTÉS INTENSIVEMENT",
+        "desc": "Les haltères BULLMAN équipent un grand nombre de structures dont des 'boxs' de CrossFit où elles sont mises à l'épreuve plusieurs fois par jour."
+      }
+    ],
+    "shortImg": [
+      "https://bullmanequipment.com/1552-medium_default/halteres-hexagonaux-25-a-50-kg-paire.jpg",
+      "https://bullmanequipment.com/2116-large_default/halteres-hexagonaux-25-a-50-kg-paire.jpg",
+      "https://bullmanequipment.com/2115-large_default/halteres-hexagonaux-25-a-50-kg-paire.jpg",
+      "https://bullmanequipment.com/2118-large_default/halteres-hexagonaux-25-a-50-kg-paire.jpg",
+      "https://bullmanequipment.com/1551-large_default/halteres-hexagonaux-25-a-50-kg-paire.jpg",
+      "https://bullmanequipment.com/1552-large_default/halteres-hexagonaux-25-a-50-kg-paire.jpg"
+     
+    ],
+    "specifications": 
+    {
+      "Marque": "BULLMAN",
+      "Couleur": "Noir",
+      "Longueur": "Chaine 70 cm",
+      "Qualité acier": "Épaisseur 5 mm",
+      "Charge maximale": "80 kg",
+      "Garantie": "5 ans"
+    }
+    ,
+    "desc": [
+      {
+        "title": "",
+        "desc": "Améliorez votre entraînement avec la Plyobox BULLMAN, un équipement indispensable pour développer votre force, explosivité et coordination de vos membres inférieurs."
+      },
+      {
+        "title": "Maximisez vos résultats :",
+        "desc": "La Plyobox vous permet de travailler efficacement les muscles des jambes et d'améliorer votre vitesse et votre coordination, ce qui se traduira par de meilleures performances sportives et un corps plus tonique et athlétique."
+      },
+      {
+        "title": "Évolution constante :",
+        "desc": "Grâce aux différentes tailles et hauteurs disponibles, vous pouvez progresser et augmenter l'intensité de vos entraînements au fur et à mesure que vous gagnez en force et en confiance."
+      },
+      {
+        "title": "Sécurité renforcée : ",
+        "desc": "La surface de la Plyobox vous assure une adhérence optimale vous permettant de vous concentrer pleinement sur votre entraînement sans craindre de glisser."
+      },
+      {
+        "title": "Entraînement varié :",
+        "desc": "La Plyobox offre une grande variété d'exercices, du saut en hauteur aux fentes, en passant par les step-ups, vous assurant ainsi de ne jamais vous ennuyer et de continuer à progresser."
+      },
+      {
+        "title": "Investissement durable :",
+        "desc": "Fabriquée en bois, la Plyobox est conçue pour durer, vous garantissant un équipement de qualité sur lequel vous pourrez compter pendant de nombreuses années."
+      }
+    ],
+    "garantie": [
+      "Tous nos accessoires et petits matériels sont garanties 2 ans.",
+      "Nos barres, plates machines et racks sont garanties 5ans."
+    ],
+    "expedition": [
+      {
+        "title1": "Pour toute commande supérieure à 500,0 nous vous offrons les frais de port.",
+        "desc1": [
+          "A l'exception des dalles, des racks, de certaines barres et des machines qui sont soumis à un forfait.",
+          "Le transport dit 'DOMICILE BULLMAN' est au choix de Bullman Equipment.",
+          "Lorsque les produits sont en stock, nous expédions généralement sous 48h.",
+          "La participation aux frais de port est calculée en fonction du prix du panier, du poids et du transporteur sélectionné."
+        ],
+        "title2": "Règles spécifiques :",
+        "desc2": [
+          "-Les packs font l'objet d'un forfait de 59,9TTC.",
+          "-L'expédition de dalles fait l'objet d'un forfait peu importe la quantité : 59,9 TTC.",
+          "-Les machines font l'objet d'un forfait par machine de 59,9.",
+          "-L'expédition de racks est soumise à une surcharge de 59,9 par commande.",
+          "-Nos barres olympiques (sauf les barres d'haltères) font l'objet d'un forfait de 3 TTC par barre pour les commandes en deçà de 50."
+        ]
+      }
+    ],
+    "payment": [
+      {
+        "title": "",
+        "desc": ["Nous vous proposons un paiement sécurisé et crypté en SSL."]
+      },
+      {
+        "title": "Comptant :",
+        "desc": ["-Cartes bancaires,", "-Virement instantané,", "-Apple Pay."]
+      },
+      {
+        "title": "En plusieurs fois :",
+        "desc": ["-KLARNA 3x,", "-KLARNA 10x."]
+      }
+    ]
+  },
+  {
+    "name": "RowErg Standard Concept2",
+    "primaryImg1": "https://bullmanequipment.com/2004-large_default/rowerg-standard-concept2.jpg",
+    "primaryImg2": "https://bullmanequipment.com/2005-large_default/rowerg-standard-concept2.jpg",
+    "category": "",
+    "price": "1040,83",
+    "shortImg": [
+      "https://bullmanequipment.com/2004-large_default/rowerg-standard-concept2.jpg",
+      "https://bullmanequipment.com/2005-large_default/rowerg-standard-concept2.jpg",
+      "https://bullmanequipment.com/2006-large_default/rowerg-standard-concept2.jpg",
+      "https://bullmanequipment.com/2006-large_default/rowerg-standard-concept2.jpg"
+    ],
+    "specifications": 
+    {
+      "Marque": "BULLMAN",
+      "Couleur": "Noir",
+      "Longueur": "Chaine 70 cm",
+      "Qualité acier": "Épaisseur 5 mm",
+      "Charge maximale": "80 kg",
+      "Garantie": "5 ans"
+    }
+    ,
+    "desc": [
+      {
+        "title": "",
+        "desc": "Améliorez votre entraînement avec la Plyobox BULLMAN, un équipement indispensable pour développer votre force, explosivité et coordination de vos membres inférieurs."
+      },
+      {
+        "title": "Maximisez vos résultats :",
+        "desc": "La Plyobox vous permet de travailler efficacement les muscles des jambes et d'améliorer votre vitesse et votre coordination, ce qui se traduira par de meilleures performances sportives et un corps plus tonique et athlétique."
+      },
+      {
+        "title": "Évolution constante :",
+        "desc": "Grâce aux différentes tailles et hauteurs disponibles, vous pouvez progresser et augmenter l'intensité de vos entraînements au fur et à mesure que vous gagnez en force et en confiance."
+      },
+      {
+        "title": "Sécurité renforcée : ",
+        "desc": "La surface de la Plyobox vous assure une adhérence optimale vous permettant de vous concentrer pleinement sur votre entraînement sans craindre de glisser."
+      },
+      {
+        "title": "Entraînement varié :",
+        "desc": "La Plyobox offre une grande variété d'exercices, du saut en hauteur aux fentes, en passant par les step-ups, vous assurant ainsi de ne jamais vous ennuyer et de continuer à progresser."
+      },
+      {
+        "title": "Investissement durable :",
+        "desc": "Fabriquée en bois, la Plyobox est conçue pour durer, vous garantissant un équipement de qualité sur lequel vous pourrez compter pendant de nombreuses années."
+      }
+    ],
+    "garantie": [
+      "Tous nos accessoires et petits matériels sont garanties 2 ans.",
+      "Nos barres, plates machines et racks sont garanties 5ans."
+    ],
+    "expedition": [
+      {
+        "title1": "Pour toute commande supérieure à 500,0 nous vous offrons les frais de port.",
+        "desc1": [
+          "A l'exception des dalles, des racks, de certaines barres et des machines qui sont soumis à un forfait.",
+          "Le transport dit 'DOMICILE BULLMAN' est au choix de Bullman Equipment.",
+          "Lorsque les produits sont en stock, nous expédions généralement sous 48h.",
+          "La participation aux frais de port est calculée en fonction du prix du panier, du poids et du transporteur sélectionné."
+        ],
+        "title2": "Règles spécifiques :",
+        "desc2": [
+          "-Les packs font l'objet d'un forfait de 59,9TTC.",
+          "-L'expédition de dalles fait l'objet d'un forfait peu importe la quantité : 59,9 TTC.",
+          "-Les machines font l'objet d'un forfait par machine de 59,9.",
+          "-L'expédition de racks est soumise à une surcharge de 59,9 par commande.",
+          "-Nos barres olympiques (sauf les barres d'haltères) font l'objet d'un forfait de 3 TTC par barre pour les commandes en deçà de 50."
+        ]
+      }
+    ],
+    "payment": [
+      {
+        "title": "",
+        "desc": ["Nous vous proposons un paiement sécurisé et crypté en SSL."]
+      },
+      {
+        "title": "Comptant :",
+        "desc": ["-Cartes bancaires,", "-Virement instantané,", "-Apple Pay."]
+      },
+      {
+        "title": "En plusieurs fois :",
+        "desc": ["-KLARNA 3x,", "-KLARNA 10x."]
+      }
+    ]
+  },
+  {
+    "name": "DALLES AMORTISSANTES 100x100 cm - grain fin",
+    "primaryImg1": "https://bullmanequipment.com/1208-large_default/dalles-amortissantes-caoutchouc.jpg",
+    "primaryImg2": "https://bullmanequipment.com/1985-large_default/dalles-amortissantes-caoutchouc.jpg",
+    "category": "",
+    "price": "24,00",
+    "shortImg": [
+      "https://bullmanequipment.com/1208-large_default/dalles-amortissantes-caoutchouc.jpg",
+      "https://bullmanequipment.com/1985-large_default/dalles-amortissantes-caoutchouc.jpg"
+    ],
+    "specifications": 
+    {
+      "Marque": "BULLMAN",
+      "Couleur": "Noir",
+      "Longueur": "Chaine 70 cm",
+      "Qualité acier": "Épaisseur 5 mm",
+      "Charge maximale": "80 kg",
+      "Garantie": "5 ans"
+    }
+    ,
+    "desc": [
+      {
+        "title": "",
+        "desc": "Améliorez votre entraînement avec la Plyobox BULLMAN, un équipement indispensable pour développer votre force, explosivité et coordination de vos membres inférieurs."
+      },
+      {
+        "title": "Maximisez vos résultats :",
+        "desc": "La Plyobox vous permet de travailler efficacement les muscles des jambes et d'améliorer votre vitesse et votre coordination, ce qui se traduira par de meilleures performances sportives et un corps plus tonique et athlétique."
+      },
+      {
+        "title": "Évolution constante :",
+        "desc": "Grâce aux différentes tailles et hauteurs disponibles, vous pouvez progresser et augmenter l'intensité de vos entraînements au fur et à mesure que vous gagnez en force et en confiance."
+      },
+      {
+        "title": "Sécurité renforcée : ",
+        "desc": "La surface de la Plyobox vous assure une adhérence optimale vous permettant de vous concentrer pleinement sur votre entraînement sans craindre de glisser."
+      },
+      {
+        "title": "Entraînement varié :",
+        "desc": "La Plyobox offre une grande variété d'exercices, du saut en hauteur aux fentes, en passant par les step-ups, vous assurant ainsi de ne jamais vous ennuyer et de continuer à progresser."
+      },
+      {
+        "title": "Investissement durable :",
+        "desc": "Fabriquée en bois, la Plyobox est conçue pour durer, vous garantissant un équipement de qualité sur lequel vous pourrez compter pendant de nombreuses années."
+      }
+    ],
+    "garantie": [
+      "Tous nos accessoires et petits matériels sont garanties 2 ans.",
+      "Nos barres, plates machines et racks sont garanties 5ans."
+    ],
+    "expedition": [
+      {
+        "title1": "Pour toute commande supérieure à 500,0 nous vous offrons les frais de port.",
+        "desc1": [
+          "A l'exception des dalles, des racks, de certaines barres et des machines qui sont soumis à un forfait.",
+          "Le transport dit 'DOMICILE BULLMAN' est au choix de Bullman Equipment.",
+          "Lorsque les produits sont en stock, nous expédions généralement sous 48h.",
+          "La participation aux frais de port est calculée en fonction du prix du panier, du poids et du transporteur sélectionné."
+        ],
+        "title2": "Règles spécifiques :",
+        "desc2": [
+          "-Les packs font l'objet d'un forfait de 59,9TTC.",
+          "-L'expédition de dalles fait l'objet d'un forfait peu importe la quantité : 59,9 TTC.",
+          "-Les machines font l'objet d'un forfait par machine de 59,9.",
+          "-L'expédition de racks est soumise à une surcharge de 59,9 par commande.",
+          "-Nos barres olympiques (sauf les barres d'haltères) font l'objet d'un forfait de 3 TTC par barre pour les commandes en deçà de 50."
+        ]
+      }
+    ],
+    "payment": [
+      {
+        "title": "",
+        "desc": ["Nous vous proposons un paiement sécurisé et crypté en SSL."]
+      },
+      {
+        "title": "Comptant :",
+        "desc": ["-Cartes bancaires,", "-Virement instantané,", "-Apple Pay."]
+      },
+      {
+        "title": "En plusieurs fois :",
+        "desc": ["-KLARNA 3x,", "-KLARNA 10x."]
+      }
+    ]
+  },
+  {
+    "name": "DALLES AMORTISSANTES 50x50cm - grain fin",
+    "primaryImg1": "https://bullmanequipment.com/2153-large_default/dalles-amortissantes-50x50cm-grain-fin.jpg",
+    "category": "",
+    "price": "6.25",
+    "shortImg": [
+      "https://bullmanequipment.com/2153-large_default/dalles-amortissantes-50x50cm-grain-fin.jpg"
+    ],
+    "specifications": 
+    {
+      "Marque": "BULLMAN",
+      "Couleur": "Noir",
+      "Longueur": "Chaine 70 cm",
+      "Qualité acier": "Épaisseur 5 mm",
+      "Charge maximale": "80 kg",
+      "Garantie": "5 ans"
+    }
+    ,
+    "desc": [
+      {
+        "title": "",
+        "desc": "Améliorez votre entraînement avec la Plyobox BULLMAN, un équipement indispensable pour développer votre force, explosivité et coordination de vos membres inférieurs."
+      },
+      {
+        "title": "Maximisez vos résultats :",
+        "desc": "La Plyobox vous permet de travailler efficacement les muscles des jambes et d'améliorer votre vitesse et votre coordination, ce qui se traduira par de meilleures performances sportives et un corps plus tonique et athlétique."
+      },
+      {
+        "title": "Évolution constante :",
+        "desc": "Grâce aux différentes tailles et hauteurs disponibles, vous pouvez progresser et augmenter l'intensité de vos entraînements au fur et à mesure que vous gagnez en force et en confiance."
+      },
+      {
+        "title": "Sécurité renforcée : ",
+        "desc": "La surface de la Plyobox vous assure une adhérence optimale vous permettant de vous concentrer pleinement sur votre entraînement sans craindre de glisser."
+      },
+      {
+        "title": "Entraînement varié :",
+        "desc": "La Plyobox offre une grande variété d'exercices, du saut en hauteur aux fentes, en passant par les step-ups, vous assurant ainsi de ne jamais vous ennuyer et de continuer à progresser."
+      },
+      {
+        "title": "Investissement durable :",
+        "desc": "Fabriquée en bois, la Plyobox est conçue pour durer, vous garantissant un équipement de qualité sur lequel vous pourrez compter pendant de nombreuses années."
+      }
+    ],
+    "garantie": [
+      "Tous nos accessoires et petits matériels sont garanties 2 ans.",
+      "Nos barres, plates machines et racks sont garanties 5ans."
+    ],
+    "expedition": [
+      {
+        "title1": "Pour toute commande supérieure à 500,0 nous vous offrons les frais de port.",
+        "desc1": [
+          "A l'exception des dalles, des racks, de certaines barres et des machines qui sont soumis à un forfait.",
+          "Le transport dit 'DOMICILE BULLMAN' est au choix de Bullman Equipment.",
+          "Lorsque les produits sont en stock, nous expédions généralement sous 48h.",
+          "La participation aux frais de port est calculée en fonction du prix du panier, du poids et du transporteur sélectionné."
+        ],
+        "title2": "Règles spécifiques :",
+        "desc2": [
+          "-Les packs font l'objet d'un forfait de 59,9TTC.",
+          "-L'expédition de dalles fait l'objet d'un forfait peu importe la quantité : 59,9 TTC.",
+          "-Les machines font l'objet d'un forfait par machine de 59,9.",
+          "-L'expédition de racks est soumise à une surcharge de 59,9 par commande.",
+          "-Nos barres olympiques (sauf les barres d'haltères) font l'objet d'un forfait de 3 TTC par barre pour les commandes en deçà de 50."
+        ]
+      }
+    ],
+    "payment": [
+      {
+        "title": "",
+        "desc": ["Nous vous proposons un paiement sécurisé et crypté en SSL."]
+      },
+      {
+        "title": "Comptant :",
+        "desc": ["-Cartes bancaires,", "-Virement instantané,", "-Apple Pay."]
+      },
+      {
+        "title": "En plusieurs fois :",
+        "desc": ["-KLARNA 3x,", "-KLARNA 10x."]
+      }
+    ]
+  },
+  {
+    "name": "DISQUES OLYMPIQUES DE 1,25 à 25 kg (paire)",
+    "primaryImg1": "https://bullmanequipment.com/2266-large_default/plaques-en-caoutchouc-tri-grip-paire.jpg",
+    "primaryImg2": "https://bullmanequipment.com/1774-large_default/plaques-en-caoutchouc-tri-grip-paire.jpg",
+    "category": "",
+    "priceTypes": [
+      {
+        "priceType": "Poids : 2.5 kg - Paire",
+        "price": "11,67",
+        "weight": "2.5"
+      },
+      {
+        "priceType": "Poids : 7.5 kg - Paire",
+        "price": "35,00",
+        "weight": "7.5"
+      },
+      {
+        "priceType": "Poids : 10 kg - Paire",
+        "price": "46,67",
+        "weight": "10"
+      },
+      {
+        "priceType": "Poids : 12.5 kg - Paire",
+        "price": "58,33",
+        "weight": "12.5"
+      },
+      {
+        "priceType": "Poids : 15 kg - Paire",
+        "price": "70,00",
+        "weight":" 15"
+      }
+    ],
+    "price": "28,00",
+    "descCard": [
+      {
+        "image": "https://bullmanequipment.com/img/cms/DB%201.jpg",
+        "title": "1-TÊTE HEXAGONALE EN CAOUTCHOUC",
+        "desc": "L'haltère à tête hexagonale allie esthétique et efficacité avec son revêtement en caoutchouc de haute qualité et sa barre ergonomique pour une prise en main optimale. Sa forme permet de ne pas rouler au sol."
+      },
+      {
+        "image": "https://bullmanequipment.com/img/cms/SCHEMAS/DB%20SCHEMA.jpg",
+        "title": "2-DIMENSIONS DE LA POIGNÉE",
+        "desc": "De 5 à 50 kg : ø34 mm, Longueur : de 2,5 à 17,5 kg = 130 mm, de 20 à 50 kg = 140mm. Les dimensions totales de l'haltère sont variables."
+      },
+      {
+        "image": "https://bullmanequipment.com/img/cms/DB3.jpg",
+        "title": "3-CONÇUS POUR DURER",
+        "desc": "L'haltère à tête hexagonale est un investissement judicieux qui vous accompagnera pendant de nombreuses années. Garantis 2 ans."
+      },
+      {
+        "image": "https://bullmanequipment.com/img/cms/DB4.jpg",
+        "title": "4-TESTÉS INTENSIVEMENT",
+        "desc": "Les haltères BULLMAN équipent un grand nombre de structures dont des 'boxs' de CrossFit où elles sont mises à l'épreuve plusieurs fois par jour."
+      }
+    ],
+    "shortImg": [
+      "https://bullmanequipment.com/2266-large_default/plaques-en-caoutchouc-tri-grip-paire.jpg",
+      "https://bullmanequipment.com/1774-large_default/plaques-en-caoutchouc-tri-grip-paire.jpg",
+      "https://bullmanequipment.com/1775-large_default/plaques-en-caoutchouc-tri-grip-paire.jpg",
+      "https://bullmanequipment.com/1776-large_default/plaques-en-caoutchouc-tri-grip-paire.jpg",
+      "https://bullmanequipment.com/1777-large_default/plaques-en-caoutchouc-tri-grip-paire.jpg",
+      "https://bullmanequipment.com/1778-large_default/plaques-en-caoutchouc-tri-grip-paire.jpg"
+     
+    ],
+    "specifications": 
+    {
+      "Marque": "BULLMAN",
+      "Couleur": "Noir",
+      "Longueur": "Chaine 70 cm",
+      "Qualité acier": "Épaisseur 5 mm",
+      "Charge maximale": "80 kg",
+      "Garantie": "5 ans"
+    }
+    ,
+    "desc": [
+      {
+        "image": "https://bullmanequipment.com/img/cms/plates%201.jpg",
+        "title": "1-MANIPULATION AISÉE",
+        "desc": "Les 3 poignées ergonomiques intégrées permettent une prise en main facile lors du changement de poids, réduisant le temps de transition entre les exercices et réduisant les risques de blessures."
+      },
+      {
+        "image": "https://bullmanequipment.com/img/cms/plates%202.jpg",
+        "title": "2-REVÊTEMENT PROTECTEUR",
+        "desc": "Ces disques sont recouverts d'un revêtement en caoutchouc de qualité, protégeant les sols et les équipements des chocs et des rayures tout en réduisant le bruit pendant l'entraînement."
+      },
+      {
+        "image": "https://bullmanequipment.com/img/cms/plates%203.jpg",
+        "title": "3-DURABLE ET RÉSISTANT",
+        "desc": "Les disques Tri-Grip sont fabriqués en matériaux de qualité garantissant une résistance à l'usure, à la corrosion et aux chocs pour une longue durée de vie et un investissement durable."
+      },
+      {
+        "image": "https://bullmanequipment.com/img/cms/plates%204.png",
+        "title": "4-ÉPAISSEUR ET DIMENSIONS",
+        "desc": "L'épaisseur de nos disques est réduite permettant aux powerlifters un gain de place sur leur barre à un prix très compétitif. De 1,25 kg à 25 kg. Convient aux barres olympiques (manchons Ø50mm)."
+      }
+    ],
+    "garantie": [
+      "Tous nos accessoires et petits matériels sont garanties 2 ans.",
+      "Nos barres, plates machines et racks sont garanties 5ans."
+    ],
+    "expedition": [
+      {
+        "title1": "Pour toute commande supérieure à 500,0 nous vous offrons les frais de port.",
+        "desc1": [
+          "A l'exception des dalles, des racks, de certaines barres et des machines qui sont soumis à un forfait.",
+          "Le transport dit 'DOMICILE BULLMAN' est au choix de Bullman Equipment.",
+          "Lorsque les produits sont en stock, nous expédions généralement sous 48h.",
+          "La participation aux frais de port est calculée en fonction du prix du panier, du poids et du transporteur sélectionné."
+        ],
+        "title2": "Règles spécifiques :",
+        "desc2": [
+          "-Les packs font l'objet d'un forfait de 59,9TTC.",
+          "-L'expédition de dalles fait l'objet d'un forfait peu importe la quantité : 59,9 TTC.",
+          "-Les machines font l'objet d'un forfait par machine de 59,9.",
+          "-L'expédition de racks est soumise à une surcharge de 59,9 par commande.",
+          "-Nos barres olympiques (sauf les barres d'haltères) font l'objet d'un forfait de 3 TTC par barre pour les commandes en deçà de 50."
+        ]
+      }
+    ],
+    "payment": [
+      {
+        "title": "",
+        "desc": ["Nous vous proposons un paiement sécurisé et crypté en SSL."]
+      },
+      {
+        "title": "Comptant :",
+        "desc": ["-Cartes bancaires,", "-Virement instantané,", "-Apple Pay."]
+      },
+      {
+        "title": "En plusieurs fois :",
+        "desc": ["-KLARNA 3x,", "-KLARNA 10x."]
+      }
+    ]
   }
+
+]
   
